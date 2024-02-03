@@ -15,17 +15,19 @@ const canvas = document.querySelector('canvas.webgl')
 // Scene
 const scene = new THREE.Scene()
 
-// Objects
-const geometry = new THREE.TorusGeometry( .7, .2, 16, 100 );
 
-// Materials
 
-const material = new THREE.MeshBasicMaterial()
-material.color = new THREE.Color(0xff0000)
+// // Objects
+// const geometry = new THREE.TorusGeometry( .7, .2, 16, 100 );
 
-// Mesh
-const sphere = new THREE.Mesh(geometry,material)
-scene.add(sphere)
+// // Materials
+
+// const material = new THREE.MeshBasicMaterial()
+// material.color = new THREE.Color(0xff0000)
+
+// // Mesh
+// const sphere = new THREE.Mesh(geometry,material)
+// scene.add(sphere)
 
 // Lights
 
